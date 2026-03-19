@@ -1,6 +1,6 @@
-# MacPorts Port Update Cheatsheet
+# MacPorts Port Updates
 
-Some ports are worth managing locally. This is how I do it.
+Original Portfiles from macports-ports, licensed under BSD. Modifications by <committer>.
 
 ## One-time setup
 
