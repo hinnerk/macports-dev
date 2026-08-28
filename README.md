@@ -19,7 +19,7 @@ cd /opt/macports-dev/ports && portindex
 Edit `/opt/local/etc/macports/sources.conf` and add **before** the rsync line:
 
 ```
-file:///opt/macports-dev/ports/
+file:///opt/macports-dev/ports/ [nosync]
 ```
 
 ## Adding a Missing Port
