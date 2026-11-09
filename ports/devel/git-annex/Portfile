@@ -22,9 +22,10 @@ platforms           macosx
 
 master_sites        https://hackage.haskell.org/package/${name}-${version}
 
-# The downloaded copy of GHC assumes utimensat(2) is available, which is not
-# true for older systems
-haskell_stack.system_ghc yes
+# The stack resolver pins a GHC version that port:ghc doesn't match, so stack
+# downloads its own GHC anyway; don't pull in port:ghc as a build dependency.
+# (The downloaded GHC needs utimensat(2), i.e. macOS 10.13 or newer.)
+haskell_stack.system_ghc no
 
 # The haskell foo doesn't run make install, so we add symlinks by hand:
 post-destroot {
