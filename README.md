@@ -38,6 +38,20 @@ file:///opt/macports-dev/ports/ [nosync]
   - Paste the hashes back into `Portfile`.
 
 ```sh
+cd /opt/macports-dev/ports && portindex
+port lint --nitpick <portname>
+sudo port -d install <portname>
+```
+
+## Copy Update From Maintainer
+
+- Copy the `Portfile`.
+- Make your changes.
+- Bump `revision` by 1.
+
+
+```sh
+cd /opt/macports-dev/ports && portindex
 port lint --nitpick <portname>
 sudo port -d install <portname>
 ```
