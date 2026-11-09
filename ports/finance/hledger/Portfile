@@ -31,9 +31,9 @@ long_description    \
     entry accounting.
 homepage            https://hledger.org
 
-checksums           rmd160  be418364f263e2dbb34d585121d40d017c3c99f5 \
-                    sha256  fcc6e26e1dd53bf747723c2d54f53fbbc8d5ab78a1393b21948616c7615a5703 \
-                    size    3617788
+checksums           rmd160  ab25094e559097489a534075b76f2f1dcc83403e \
+                    sha256  46373012d670b6b236090347a0197cb74e1b89e0e1a857394baaad7cc6e66de0 \
+                    size    4714356
 
 post-destroot {
     # Add man-pages
