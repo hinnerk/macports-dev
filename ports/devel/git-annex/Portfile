@@ -4,10 +4,10 @@ PortSystem          1.0
 PortGroup           haskell_stack 1.0
 
 name                git-annex
-version             10.20260717
-checksums           rmd160  f08af453103adcd54afde0c3d6b28770fcc85f3e \
-                    sha256  e0802511e0c90852f52997520668b70cfa1e57fc268d996564c24a289ea6e406 \
-                    size    1586688
+version             10.20261026
+checksums           rmd160  6adcf9f65a1564c1d5b862bb79c2c318e47b438a \
+                    sha256  fc080a8a556d364e3e9e6255e4ec1540cc53d568df01de30d93d4322e311d028 \
+                    size    1600097
 description         git-annex allows managing files with git, without checking the file contents into git
 long_description    git-annex allows managing files with git, without checking the file \
                     contents into git. While that may seem paradoxical, it is useful when \
